@@ -5,3 +5,156 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* General:
+----------------------------------------------- */
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-img:hover,
+.link-img:focus {
+  opacity: 0.8;
+}
+/* Header :
+----------------------------------------------- */
+header {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+header img {
+  border-radius: 50%;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* Nav :
+----------------------------------------------- */
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+nav i:hover,
+nav i:focus {
+  opacity: 0.5;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* Banner :
+----------------------------------------------- */
+#img-div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#image {
+  width: 100%;
+  object-fit: cover;
+}
+
+#img-caption {
+  padding: 15px 0;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* Article :
+----------------------------------------------- */
+article {
+  margin: 0 auto;
+  width: 85%;
+}
+
+article a {
+  padding-bottom: 3px;
+}
+
+article li {
+  padding-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+h3 {
+  padding: 20px 0 10px 0;
+}
+
+.article-info p {
+  padding: 10px 0 30px 0;
+}
+
+.article-img {
+  width: 70%;
+  margin: 30px 0;
+}
+
+.official-site {
+  margin: 100px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+}
+
+.official-site p {
+  padding-bottom: 20px;
+}
+
+.official-site p,
+.official-site img {
+  width: 85%;
+  max-width: 400px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* Aside :
+----------------------------------------------- */
+aside img {
+  width: 60%;
+}
+
+h4 {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+h5 {
+  padding-bottom: 20px;
+}
+
+.book {
+  padding: 30px 25px;
+}
+
+.book p {
+  padding-top: 20px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* Footer :
+----------------------------------------------- */
+footer {
+  min-height: 100px;
+  padding: 30px;
+  min-height: 100px;
+  padding: 30px;
+}
+
+footer a {
+  padding-left: 10px;
+}
+
+.copyright-div {
+  display: flex;
+  justify-content: center;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
