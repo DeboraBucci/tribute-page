@@ -1,20 +1,54 @@
 @media (min-width: 975px) {
   /* General 
     ---------------------------- */
+  #tribute-info {
+    display: flex;
+  }
   /* xxxxxxxxxxxxxxxxxxxxxxxxx */
+
   /* Nav
     ---------------------------- */
+  #nav {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
   /* xxxxxxxxxxxxxxxxxxxxxxxxx */
-  /* Banner 
-    ---------------------------- */
-  /* xxxxxxxxxxxxxxxxxxxxxxxxx */
+
   /* Article 
     ---------------------------- */
+  #article {
+    width: 50%;
+  }
+
+  #article li {
+    list-style: none;
+  }
   /* xxxxxxxxxxxxxxxxxxxxxxxxx */
+
   /* Aside 
     ---------------------------- */
-  /* xxxxxxxxxxxxxxxxxxxxxxxxx */
-  /* Footer 
-    ---------------------------- */
+  aside {
+    margin: 50px 70px 0 0;
+    max-width: 400px;
+    background: white;
+  }
+
+  h4 {
+    color: var(--two);
+  }
+
+  .aside-info {
+    border: 20px solid #ebebeb;
+  }
+
+  .hidden {
+    float: left;
+    margin-left: -100000px;
+  }
+
+  .border-bottom {
+    border-bottom: 3px solid #ebebeb;
+    margin: 0 40px;
+  }
   /* xxxxxxxxxxxxxxxxxxxxxxxxx */
 }

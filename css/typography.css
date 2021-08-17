@@ -56,3 +56,11 @@ li {
   line-height: 25px;
   word-spacing: 0.15rem;
 }
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
