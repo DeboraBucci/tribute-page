@@ -4,17 +4,18 @@
   --main: #8b013fe3;
   --sub-titles: #f88dad;
   --links: #8390fa;
-  --aside: #d4a0a7;
-  --color-one: #e3e3e3;
-  --color-two: #808080;
-  --color-three: #d3d3d3;
-  --color-four: #555555;
+  --one: #e3e3e3;
+  --two: #808080;
+  --three: #d3d3d3;
+  --four: #555555;
+  --five: #d4a0a7;
+  --six: #002366;
 }
 
 /* Colors :
 ----------------------------------------------- */
 body {
-  color: var(--color-two);
+  color: var(--two);
 }
 
 h1,
@@ -35,7 +36,7 @@ h5 {
 li,
 nav p,
 #img-caption {
-  color: var(--color-four);
+  color: var(--four);
 }
 
 footer,
@@ -43,13 +44,13 @@ h4,
 .top-btn,
 footer,
 footer i {
-  color: var(--color-one);
+  color: var(--one);
 }
 
 /* Background :
 ----------------------------------------------- */
 #img-div {
-  background-color: var(--color-three);
+  background-color: var(--three);
 }
 
 .book {
@@ -67,18 +68,37 @@ footer {
 /* Borders :
 ----------------------------------------------- */
 nav {
-  border-bottom: 3px solid var(--color-two);
+  border-bottom: 3px solid var(--two);
 }
 
 nav p,
 h2 {
-  border-bottom: 1px solid var(--color-two);
+  border-bottom: 1px solid var(--two);
 }
 
 .official-site {
-  border: 10px solid var(--color-three);
+  border: 10px solid var(--three);
 }
 
 h4 {
-  border-bottom: 3px solid var(--color-one);
+  border-bottom: 3px solid var(--one);
+}
+
+/* Pseudo-Classes :
+----------------------------------------------- */
+.special-link:hover,
+.special-link:focus {
+  color: var(--five);
+  border-bottom: 1px solid var(--five);
+}
+
+.special-p a:hover,
+.special-p a:focus {
+  color: var(--six);
+}
+
+.top-btn:hover,
+.top-btn:focus {
+  opacity: 1;
+  text-shadow: 0 0 0 var(--one);
 }
