@@ -7,5 +7,59 @@
   --aside: #d4a0a7;
   --color-one: #e3e3e3;
   --color-two: #808080;
-  --color-three: #ebebeb;
+  --color-three: #d3d3d3;
+  --color-four: #555555;
+}
+
+/* Colors :
+----------------------------------------------- */
+body {
+  color: var(--color-two);
+}
+
+h1,
+i {
+  color: var(--main);
+}
+
+a {
+  color: var(--links);
+}
+
+h2,
+h3,
+h5 {
+  color: var(--sub-titles);
+}
+
+li,
+nav p,
+#img-caption {
+  color: var(--color-four);
+}
+
+footer,
+h4,
+.top-btn,
+footer,
+footer a {
+  color: var(--color-one);
+}
+
+/* Background :
+----------------------------------------------- */
+.caption-div {
+  background-color: var(--color-three);
+}
+
+.book {
+  background-color: var(--color-one);
+}
+
+aside {
+  background-color: var(--aside);
+}
+
+footer {
+  background-color: var(--main);
 }
