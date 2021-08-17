@@ -7,3 +7,46 @@ body {
 h1 {
   font-family: "Lobster Two", cursive;
 }
+
+/* Font Sizes :
+----------------------------------------------- */
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+#sub-title,
+.top-btn {
+  font-size: 1.5rem;
+}
+
+article p {
+  font-size: 1.1em;
+}
+
+i {
+  font-size: 18px;
+}
+
+/* Other Features :
+----------------------------------------------- */
+p,
+li {
+  line-height: 25px;
+  word-spacing: 0.15rem;
+}
