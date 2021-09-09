@@ -190,13 +190,14 @@ footer a {
   padding-left: 10px;
 }
 
-footer i {
-  padding: 3px 5px;
-}
-
 .copyright-div {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.copyright-div p {
+  padding-left: 5px;
 }
 
 .special-p {

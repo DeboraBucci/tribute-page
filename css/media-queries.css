@@ -51,4 +51,11 @@
     margin: 0 40px;
   }
   /* xxxxxxxxxxxxxxxxxxxxxxxxx */
+
+  /* Footer 
+  ---------------------------- */
+  footer i {
+    padding: 3px 5px;
+  }
+  /* xxxxxxxxxxxxxxxxxxxxxxxxx */
 }
